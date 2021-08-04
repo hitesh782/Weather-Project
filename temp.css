@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(20, 19, 19);
+  margin-left: 20px;
+  margin-top: 20px;
+  width:300px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.search{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#search{
+    padding: 5px;
+    color:white;
+    background-color: rgb(160, 42, 42);
+    border: none;
+    font-size: 16px;
+}
+
+.searchButton{
+    background-color: rgb(87, 173, 46);
+    border:none;
+}
+
+.widget{
+    background-color: rgb(45, 180, 63);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.weatherinfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.discripti{
+    display: flex;
+    flex-direction: column;
+}
+
+.weatherCondition, .temperature, .speed , .humidity, .pressure, .place{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+#temp, #speed , #humidity, #pressure, #place, #weathermood{
+    color: white;
+}
+
+.date{
+    color: rgb(39, 44, 31);
+    font-size: 18px;
+}
